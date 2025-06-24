@@ -6,5 +6,7 @@ public class variable {
         System.out.println(num);
         float num2 = 7.8f;
         System.out.println(num2);
+        String name= "Urval";
+        System.out.println(name);
     }
 }
