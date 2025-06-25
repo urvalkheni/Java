@@ -1,6 +1,6 @@
 package Codes.Basic;
 
-public class variable {
+public class Variable {
     public static void main(String a[]){
         int num = 777;
         System.out.println(num);
