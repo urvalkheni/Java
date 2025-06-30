@@ -1,6 +1,6 @@
 // First Calss Interest Calculate
 // Max out of three number
-package Codes.OOPS;
+package Codes.BasicClg.Lecture;
 class Interest{
     int principalAmount;
     float rate;

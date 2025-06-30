@@ -1,4 +1,4 @@
-package Codes.OOPS;
+package Codes.BasicClg.Lecture;
 class test{
     int a;
     int b;
