@@ -26,7 +26,7 @@ class Max{
     }
 
 }
-public class Task {
+public class Task1 {
     public static void main(String[] args){
         Interest I = new Interest();
         I.principalAmount = 1000;
