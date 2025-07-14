@@ -19,6 +19,7 @@ class Tennis extends Game{
         System.out.println("Playing Tennis");
     }
 }
+
 public class Task4 {
     public static void main(String[] args) {
         Game cricket = new Cricket();
