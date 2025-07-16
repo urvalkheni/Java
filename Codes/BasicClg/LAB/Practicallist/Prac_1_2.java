@@ -57,7 +57,7 @@ class Student {
 public class Prac_1_2 {
     public static void main(String[] args) {
         Student student1 = new Student("123", "Urval", "Computer Engineering", 9.8f);
-        Student student2 = new Student("456", "Aarav", "Information Technology", 9.6f);
+        Student student2 = new Student("456", "Heet", "Information Technology", 9.6f);
         System.out.println();
         // Creating course and scholarship for student1 and 
         Student.Course course1 = student1.new Course("Java Programming", "CS101");
