@@ -24,18 +24,19 @@ interface Logarithmic {
 }
 
 class Calculator implements Add, Multi, Sub, Division, Logarithmic {
+    @Override
     public int addi(int a, int b) {
         return a + b;
     }
-
+    @Override
     public int mul(int a, int b) {
         return a * b;
     }
-
+    @Override
     public int subt(int a, int b) {
         return a - b;
     }
-
+    @Override
     public double divi(int a, int b) {
         if (b == 0) {
             System.out.println("Error: Division by zero!");
@@ -43,7 +44,7 @@ class Calculator implements Add, Multi, Sub, Division, Logarithmic {
         }
         return (double) a / b;
     }
-
+    @Override
     public double logBase10(double x) {
         if (x <= 0) {
             System.out.println("Error: Logarithm base 10 undefined for zero or negative numbers!");
@@ -51,7 +52,7 @@ class Calculator implements Add, Multi, Sub, Division, Logarithmic {
         }
         return Math.log10(x);
     }
-
+    @Override
     public double naturalLog(double x) {
         if (x <= 0) {
             System.out.println("Error: Natural logarithm undefined for zero or negative numbers!");
