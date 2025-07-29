@@ -1,10 +1,8 @@
-// package Codes.BasicClg.LAB.Practicallist;
-
 import java.util.*;
 
 class Sanitizer {
     private static final Set<String> INAPPROPRIATE_WORDS = new HashSet<>(Arrays.asList(
-        "damn", "hell", "shit", "crap", "wtf", "lol",
+            "damn", "hell", "shit", "crap", "wtf", "lol"
     ));
 
     public static String removeExtraSpaces(String input) {
@@ -16,7 +14,7 @@ class Sanitizer {
         for (int i = 0; i < words.length; i++) {
             String wordClean = words[i].replaceAll("[^a-zA-Z]", "").toLowerCase();
             if (INAPPROPRIATE_WORDS.contains(wordClean)) {
-                words[i] = words[i].replaceAll("(?i)" + wordClean, "***");
+                words[i] = words[i].replaceAll("(?i)\\b" + wordClean + "\\b", "***");
             }
         }
         return String.join(" ", words);
@@ -24,8 +22,17 @@ class Sanitizer {
 
     public static String formatCapitalization(String input) {
         if (input.isEmpty()) return input;
-        input = input.toLowerCase();
-        return Character.toUpperCase(input.charAt(0)) + input.substring(1);
+        String[] sentences = input.split("(?<=[.!?])\\s*");
+        StringBuilder formatted = new StringBuilder();
+        for (String sentence : sentences) {
+            sentence = sentence.trim().toLowerCase();
+            if (!sentence.isEmpty()) {
+                formatted.append(Character.toUpperCase(sentence.charAt(0)))
+                        .append(sentence.substring(1))
+                        .append(" ");
+            }
+        }
+        return formatted.toString().trim();
     }
 
     public static String sanitize(String input) {

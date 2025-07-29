@@ -1,6 +1,8 @@
-package Codes.BasicClg.Lecture;
-java.util.Scanner;
-public class CompoundInterestCalculator {
+//package Codes.BasicClg.Lecture;
+
+import java.util.Scanner;
+
+class CompoundInterestCalculator {
     private double principal;
     private double rate;
     private int time;
@@ -31,6 +33,7 @@ public class CompoundInterestCalculator {
         System.out.printf("Compound Interest     : ₹%.2f%n", calculateInterest());
     }
 }
+
 public class Task3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
