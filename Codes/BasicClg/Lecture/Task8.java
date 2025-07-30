@@ -1,4 +1,4 @@
-
+package Codes.BasicClg.Lecture;
 
 class ThreadCreation implements Runnable {
     ThreadCreation() {}

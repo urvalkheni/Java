@@ -1,3 +1,5 @@
+package Codes.BasicClg.LAB.Practicallist;
+
 import java.util.*;
 
 class Sanitizer {
