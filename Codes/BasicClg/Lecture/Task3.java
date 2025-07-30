@@ -1,4 +1,4 @@
-//package Codes.BasicClg.Lecture;
+package Codes.BasicClg.Lecture;
 
 import java.util.Scanner;
 

@@ -1,5 +1,5 @@
 package Codes.BasicClg.Lecture;
-class test{
+class Test{
     int a;
     int b;
     int sum(int a,int b)
@@ -11,7 +11,7 @@ public class Classdemo
 {
     public static void main(String a[])
     {
-        test t = new test();
+        Test t = new Test();
         t.a=9;
         t.b=6;
         System.out.println(t.sum(t.a,t.b));

@@ -1,11 +1,11 @@
-// package Codes.BasicClg.Lecture;
-interface Exam{
+package Codes.BasicClg.Lecture;
+interface ExamInterface{
     boolean pass(int mark);
 }
 interface Classify{
     String division(int mark);
 }
-class Marks implements Exam, Classify {
+class Marks implements ExamInterface, Classify {
     @Override
     public boolean pass(int mark) {
         return mark >= 50;
