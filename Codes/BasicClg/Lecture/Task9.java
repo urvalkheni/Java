@@ -1,4 +1,4 @@
-//make 10 theards with the help of array and in the sleep 1 to 2 sec with random function
+// make 10 threads with the help of array and in the sleep 1 to 2 sec with random function
 import java.util.Random;
 
 public class Task9 {
