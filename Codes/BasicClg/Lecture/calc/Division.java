@@ -1,4 +1,4 @@
-package Codes.BasicClg.Lecture.Task10.calc;
+package Codes.BasicClg.Lecture.calc;
 
 public class Division {
     public int Div(int a, int b){

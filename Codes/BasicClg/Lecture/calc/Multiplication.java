@@ -1,4 +1,4 @@
-package Codes.BasicClg.Lecture.Task10.calc;
+package Codes.BasicClg.Lecture.calc;
 
 public class Multiplication {
     public int Multi(int a, int b){
