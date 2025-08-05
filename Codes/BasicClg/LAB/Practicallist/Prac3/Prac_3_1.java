@@ -53,9 +53,9 @@ public class Prac_3_1 {
         
         // 5. Demonstrating Constructor Chaining with super()
         System.out.println("=== Constructor Chaining ===");
-        Doctors doctor2 = new Doctors(); // Uses constructor chaining
-        Nurses nurse2 = new Nurses();    // Uses constructor chaining
-        Administrative_Staff admin2 = new Administrative_Staff(); // Uses constructor chaining
+        Doctors doctor2 = new Doctors(); 
+        Nurses nurse2 = new Nurses();    
+        Administrative_Staff admin2 = new Administrative_Staff(); 
         
         System.out.println("Default constructed objects:");
         doctor2.displayInfo();
