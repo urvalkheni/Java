@@ -10,7 +10,7 @@ public class Task9 {
             final int threadNumber = i + 1;
             threads[i] = new Thread(() -> {
                 try {
-                    // Random sleep between 1000-2000 milliseconds (1-2 seconds)
+                   
                     int sleepTime = 1000 + random.nextInt(1000);
                     System.out.println("Thread " + threadNumber + " sleeping for " + sleepTime + "ms");
                     Thread.sleep(sleepTime);
@@ -22,12 +22,12 @@ public class Task9 {
             threads[i].setName("Thread-" + threadNumber);
         }
         
-        // Start all threads
+        
         for (Thread thread : threads) {
             thread.start();
         }
         
-        // Wait for all threads to complete
+     
         for (Thread thread : threads) {
             try {
                 thread.join();
