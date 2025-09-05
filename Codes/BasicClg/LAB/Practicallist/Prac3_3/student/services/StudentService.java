@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class StudentService {
     private ArrayList<Student> students = new ArrayList<>();
 
-    // Register a student
+    
     public void registerStudent(Student s) {
         if (Utility.validateId(s.getId())) {
             students.add(s);
@@ -17,7 +17,7 @@ public class StudentService {
         }
     }
 
-    // List all students
+    
     public void listStudents() {
         if (students.isEmpty()) {
             System.out.println("No students registered.");
@@ -30,7 +30,7 @@ public class StudentService {
         }
     }
 
-    // Search student by ID
+    
     public void searchById(String id) {
         for (Student s : students) {
             if (s.getId().equalsIgnoreCase(id)) {

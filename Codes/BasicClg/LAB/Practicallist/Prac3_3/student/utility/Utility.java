@@ -2,7 +2,7 @@
 package Codes.BasicClg.LAB.Practicallist.Prac3_3.student.utility;
 
 public class Utility {
-    // Calculate grade
+    
     public static String calculateGrade(double marks) {
         if (marks >= 90) return "A+";
         else if (marks >= 75) return "A";
@@ -11,7 +11,7 @@ public class Utility {
         else return "F";
     }
 
-    // Validate Student ID (must start with 'S' followed by digits)
+    
     public static boolean validateId(String id) {
         return id != null && id.matches("S[0-9]+");
     }
