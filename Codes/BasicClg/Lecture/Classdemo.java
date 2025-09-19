@@ -1,4 +1,4 @@
-package Codes.BasicClg.Lecture;
+
 class Test{
     int a;
     int b;
