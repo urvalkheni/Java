@@ -1,4 +1,4 @@
-package Codes.BasicClg.Lecture;
+
 import java.util.Scanner;
 enum FuelType {
     F95, F98, DIESEL

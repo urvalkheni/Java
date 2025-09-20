@@ -1,4 +1,4 @@
-package Codes.BasicClg.Lecture;
+
 abstract class Game{
     abstract void play();    
     public void start() {

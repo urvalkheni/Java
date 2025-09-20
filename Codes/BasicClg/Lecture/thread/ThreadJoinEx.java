@@ -1,4 +1,4 @@
-// package ThreadDemo;
+
 public class ThreadJoinEx {
  
     public static void main(String[] args) {
