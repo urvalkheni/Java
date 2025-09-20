@@ -1,6 +1,7 @@
+package Codes.Basic;
 class Computer{
-    public playMusic(){
-        
+    public void playMusic(){
+        // method body
     } 
 }
 

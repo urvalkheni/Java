@@ -1,4 +1,4 @@
-package Codes.BasicClg.Lecture;
+
 /*Single inheritance Student Class(Roll no,name) than Exam Class(sybject 1,subject 2,Subject 3)*/ 
 class Student{
     String rollNo;

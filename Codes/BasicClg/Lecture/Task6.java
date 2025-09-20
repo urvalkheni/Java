@@ -1,4 +1,4 @@
-package Codes.BasicClg.Lecture;
+
 interface ExamInterface{
     boolean pass(int mark);
 }

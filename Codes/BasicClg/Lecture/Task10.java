@@ -1,8 +1,4 @@
-package Codes.BasicClg.Lecture;
-import Codes.BasicClg.Lecture.calc.Addition;
-import Codes.BasicClg.Lecture.calc.Subtraction;
-import Codes.BasicClg.Lecture.calc.Multiplication;
-import Codes.BasicClg.Lecture.calc.Division;
+
 
 public class Task10 {
     public static void main(String[] args) {

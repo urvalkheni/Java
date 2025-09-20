@@ -1,3 +1,4 @@
+package Codes.Basic;
 public class NewSwitch {
     public static void main(String[] args) {
         String day = "Monday";
