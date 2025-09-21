@@ -5,7 +5,7 @@ public class ThreadPriority extends Thread {
      for(int i=0;i<5;i++){
      System.out.println("running thread name is:"+Thread.currentThread().getName());  
 	 System.out.println("running thread priority is:"+Thread.currentThread().getPriority()); 
-     System.out.println("running thread ID is:"+Thread.currentThread().getId()); 
+  // System.out.println("running thread ID is:"+Thread.currentThread().getId()); // Deprecated since Java 19
       try{
         Thread.sleep(100);
       }catch(Exception e){}
